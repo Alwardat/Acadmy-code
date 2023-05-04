@@ -1,0 +1,90 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+direction: rtl;
+justify-self: center;
+
+}
+body{
+
+border-style: solid;
+
+background-image: url("baak.jpg");
+background-position: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+font-size: large;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+/* unvisited link */
+nav a:link {
+    color: blueviolet;}
+    /* visited link */
+    nav a:visited {
+    color: black}
+    /* mouse over link */
+    nav a:hover {
+    color: chocolate}
+    /* selected link */
+    nav a:active {
+    color: crimson;}
+    
+    
+
+
+
+
+
+h3{
+    color: orange;
+}
+h1{
+    color: blue;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    width: 100px;
+    height: 5px;
+    justify-content: center;
+
+
+}
+
+
+li{
+   display: inline;
+   margin: 30px; 
+
+   }
+   ol{
+   display: inline-block;
+   margin: 30px; 
+
+   }
+   hr{
+
+ background-color: black ;
+width: 100%;  
+height: 3; }
+
+.Img {   
+     display: inline;
+     text-align: center;
+     width: 10%;
+     /* margin-right: 10%; */
+     
+     
+}
+
+h2{color: blue;}
+p1{color:blueviolet;}
+
+img{text-align: center;}
+td{text-align: center;}
+td{color: darkmagenta;}
+
