@@ -1,0 +1,107 @@
+<html>
+    <head>
+    <title>اكاديمة الاكواد للبرمجة</title>
+<link href="css/cssfile.css" rel="stylesheet">
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        width: 100px;
+        height: 50px;
+        }
+    </style>
+</head>
+
+<body > 
+
+    <img src="Imgs/logo1.PNG" alt="logo">
+    <h1>اكاديمية الاكواد للبرمجة </h1>
+    <br>
+
+    <header>
+      <nav>
+         <ol id="navigation-bar">
+        <li><a href="home.html">الرئيسيه     </a></li>
+         <li> <a href="zain.html">مشاريعنا  </a></li>
+         <li> <a href="signup.html"> تسجيل التدريب </a></li>
+         </ol>
+     </nav>
+ </header>
+      <hr>
+      <br>
+      <form  class="wrapper" action="/" method="post">
+        <fieldset>
+       <h3> تسجيل مستخدم جديد</h3>
+
+        <label> اسم المستخدم</label>
+       <input type="text" name="name" value="" />
+          <br>  
+        <label>البريد الالكتروني </label>
+        <input type="text" name="name" value="" />
+        <br>
+        <label>كلمه المرور</label>
+        <input type="password" name="name" value="" />
+
+        <br>
+        <br>
+<label>التخصص </label>
+<input type="radio" name="gender" id="التخصص" />
+<label for="A">ادبي</label>
+<input type="radio" name="A" id="التخصص" />
+<label for="#">علمي</label>
+<input type="radio" name="#" id="التخصص" />
+<label for="female">صناعي</label>
+<br>
+<br>
+<label for="agree"> تاريخ التقديم </label>
+<input type="time" name="agree" id="agree">
+<br>
+<br>
+<label for="agree"> ملاحظات   </label>
+<textarea name="ملاحظات" id="" cols="50" ></textarea>
+
+<br>
+<br>
+<label for="agree">اللغات التي تتقنها : </label>
+
+<input type="checkbox" name="agree" id="agree">
+<label for="agree">html</label>
+<input type="checkbox" name="not agree" id="agree">
+<label for="not agree">css </label>
+<input type="checkbox" name="not agree" id="agree">
+<label for="not agree">android </label>
+<input type="checkbox" name="not agree" id="agree">
+<label for="not agree">ios </label>
+<br>
+
+<label 1 for="not agree">التقدير العام  </label>
+
+<input type="range" min="1" max="100" value="" class="slider" id="myRange" >
+<p>التقدير العام  <span id="demo"></span></p>
+<br>
+<button>ارسال</button>
+<button>اعادة ضبط</button>
+</fieldset>
+</form>
+<hr>
+<br>
+
+
+
+ <h2>جميع الحقوق محفوظه لموقع اكاديمة الاكواد التعليمية  <img1 src="Imgs/c.PNG" alt="c"></img1></h2>
+
+<br>
+<div class="Img">
+<img src="Imgs/facebook.PNG" alt="facebook">
+<img src="Imgs/insta.PNG" alt="insta">
+<img src="Imgs/twiter.PNG" alt="twiter">
+</div>
+</body>
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+</html>
